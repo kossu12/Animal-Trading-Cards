@@ -1,0 +1,36 @@
+/* add your CSS here */
+* {
+	box-sizing: border-box;
+}
+.interesting_facts {
+    font-style: italic;
+}
+.labels {
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+#main_border {
+    border: 1px solid rgb(176, 197, 159);
+    padding: 10px;
+    width: 323px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 3px #777;
+    border-radius: 5px;
+    background-color: rgb(176, 197, 159)
+}
+#info_border {
+    border: 1px ridge grey;
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(176, 197,159);
+}
+#image {
+    width: 300px;
+    padding: 0 0 10px 0;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
